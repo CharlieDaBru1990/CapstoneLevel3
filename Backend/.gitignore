@@ -1,0 +1,4 @@
+# This ensures that when committing files to gitHub- the node_modules will be ignored
+node_modules
+logs
+.env
