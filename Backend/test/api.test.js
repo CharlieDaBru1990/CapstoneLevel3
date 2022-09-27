@@ -15,11 +15,11 @@ describe("Status and content", function () {
         done();
       });
     });
-    it("content", function (done) {
-      request("http://localhost:3500/", function (error, response, body) {
-        expect(body).to.equal("Server running on port 3500");
-        done();
-      });
-    });
+    // it("content", function (done) {
+    //   request("http://localhost:3500/", function (error, response, body) {
+    //     expect(body).to.equal("Server running on port 3500");
+    //     done();
+    //   });
+    // });
   });
 });
